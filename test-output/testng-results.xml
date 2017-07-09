@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[testis passed and screenshot taken]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[testis passed and screenshot taken]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32" started-at="2017-07-03T13:30:07Z" finished-at="2017-07-03T13:30:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32" started-at="2017-07-03T13:30:07Z" finished-at="2017-07-03T13:30:07Z">
+      <class name="BTM.TestingAssert">
+        <test-method status="PASS" signature="m2()[pri:0, instance:BTM.TestingAssert@31b7dea0]" name="m2" duration-ms="10" started-at="2017-07-03T19:00:07Z" finished-at="2017-07-03T19:00:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testis passed and screenshot taken]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:BTM.TestingAssert@31b7dea0]" name="m3" duration-ms="1" started-at="2017-07-03T19:00:07Z" finished-at="2017-07-03T19:00:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testis passed and screenshot taken]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- BTM.TestingAssert -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
