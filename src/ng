@@ -1,0 +1,7 @@
+<Suite name="S1">
+	<test name="t1">
+		<classes>
+			<class name="test_ng_package.A"/>
+		</classes>
+	</test>
+</suite>
