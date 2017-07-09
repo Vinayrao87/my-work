@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="TestChrome">
+    <parameter name="browser" value="chrome"/>
+    <packages>
+      <package name="testing"/>
+    </packages>
+    <classes>
+      <class name="testing.Abc"/>
+      <class name="testing.AutoUtility1"/>
+      <class name="testing.BaseTest_Testing"/>
+      <class name="testing.Constant_values"/>
+      <class name="testing.Excel1"/>
+      <class name="testing.FW_listeners"/>
+      <class name="testing.Testing_excel$WBT_testing"/>
+      <class name="testing.Testing_excel"/>
+      <class name="testing.WBT_testing"/>
+    </classes>
+  </test> <!-- TestChrome -->
+  <test name="TestFirefox">
+    <parameter name="browser" value="firefox"/>
+    <packages>
+      <package name="testing"/>
+    </packages>
+    <classes>
+      <class name="testing.Abc"/>
+      <class name="testing.AutoUtility1"/>
+      <class name="testing.BaseTest_Testing"/>
+      <class name="testing.Constant_values"/>
+      <class name="testing.Excel1"/>
+      <class name="testing.FW_listeners"/>
+      <class name="testing.Testing_excel$WBT_testing"/>
+      <class name="testing.Testing_excel"/>
+      <class name="testing.WBT_testing"/>
+    </classes>
+  </test> <!-- TestFirefox -->
+  <test name="TestChrome(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testing.BaseTest_Testing">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testing.BaseTest_Testing -->
+      <class name="testing.WBT_testing">
+        <methods>
+          <include name="testWBT"/>
+          <include name="closeApp"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- testing.WBT_testing -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test name="TestFirefox(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testing.BaseTest_Testing">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testing.BaseTest_Testing -->
+      <class name="testing.WBT_testing">
+        <methods>
+          <include name="testWBT"/>
+          <include name="closeApp"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- testing.WBT_testing -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
