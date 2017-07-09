@@ -1,0 +1,13 @@
+
+<suite name="Suite" parallel="none">
+  <test name="Test">
+  <groups>
+  			<run>
+  				<exclude name="smoke"/>
+  			</run>
+  </groups>
+      <classes>
+      <class name="practiceAtHome.CheckAssert"/>
+    </classes>
+  </test>
+</suite> 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[m3]]>
+    </line>
+    <line>
+      <![CDATA[m4]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31" started-at="2017-07-09T07:49:18Z" finished-at="2017-07-09T07:49:18Z">
+    <groups>
+      <group name="regression">
+        <method signature="CheckAssert.m3()[pri:0, instance:practiceAtHome.CheckAssert@47d384ee]" name="m3" class="practiceAtHome.CheckAssert"/>
+        <method signature="CheckAssert.m4()[pri:0, instance:practiceAtHome.CheckAssert@47d384ee]" name="m4" class="practiceAtHome.CheckAssert"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test" duration-ms="31" started-at="2017-07-09T07:49:18Z" finished-at="2017-07-09T07:49:18Z">
+      <class name="practiceAtHome.CheckAssert">
+        <test-method status="PASS" signature="m3()[pri:0, instance:practiceAtHome.CheckAssert@47d384ee]" name="m3" duration-ms="16" started-at="2017-07-09T13:19:18Z" finished-at="2017-07-09T13:19:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[m3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m4()[pri:0, instance:practiceAtHome.CheckAssert@47d384ee]" name="m4" duration-ms="0" started-at="2017-07-09T13:19:18Z" finished-at="2017-07-09T13:19:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[m4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+      </class> <!-- practiceAtHome.CheckAssert -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
