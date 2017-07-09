@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[ismail   123]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32" started-at="2017-07-02T07:46:48Z" finished-at="2017-07-02T07:46:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32" started-at="2017-07-02T07:46:48Z" finished-at="2017-07-02T07:46:48Z">
+      <class name="Practice1.Testassert">
+        <test-method status="PASS" signature="m1(int, java.lang.String)[pri:0, instance:Practice1.Testassert@629f0666]" name="m1" duration-ms="11" started-at="2017-07-02T13:16:48Z" finished-at="2017-07-02T13:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ismail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ismail   123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- Practice1.Testassert -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

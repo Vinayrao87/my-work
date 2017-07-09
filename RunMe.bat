@@ -1,0 +1,1 @@
+java -cp bin;jar/* com.actitime.Naukri_uploadCV

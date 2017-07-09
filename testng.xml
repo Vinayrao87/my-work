@@ -1,0 +1,11 @@
+
+<suite name="Suite" parallel="none">
+  <test name="Test">
+  		<parameter name="username" value="ismail"/>
+  		<parameter name="password" value="123"/
+  		>
+   		 	<classes>
+    		  <class name="Practice1.Testassert"/>
+    </classes>
+  </test> 
+</suite> 
